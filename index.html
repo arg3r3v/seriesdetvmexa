@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Series de Televisión Mexicana</title>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <img src="img/tvmexa.jpg" alt="Series Mexicanas" style="max-width: 40%; height: auto;">
+        <p class="popup-text">¡Bienvenido a la colección de Series de Televisión Mexicana que no te puedes perder!</p>
+        <p class="popup-text">Explora nuestras series emblemáticas y descubre nuevos tesoros de la televisión mexicana.</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="content">
+        <h1>Tres Series de Televisión Mexicana que No te Puedes Perder!</h1>
+        <div id="menu">
+            <a href="#familiapeluche"><button><span>Familia P. Luche</span></button></a>
+            <a href="#chavodel8"><button><span>El Chavo del 8</span></button></a>
+            <a href="#vecinos"><button><span>Vecinos</span></button></a>
+        </div>
+        <img id="imagen-apertura" src="img/imgapertura.jpg" alt="Series Mexicanas Intro" style="max-width: 80%; height: auto;">
+        <p>
+        En las décadas pasadas, la televisión mexicana clásica nos regaló momentos inolvidables y risas interminables a través de una amplia gama de programas de comedia que se han convertido en verdaderos tesoros de la cultura popular. Desde las entrañables aventuras del "Chavo del 8" en la vecindad más famosa de la televisión hasta las divertidas y alocadas situaciones de la peculiar familia Peluche, la pantalla chica nos transportó a un mundo de humor único e inolvidable. Cada programa, con sus personajes entrañables y sus historias llenas de ingenio, se convirtió en parte de la vida cotidiana de millones de espectadores, creando lazos de nostalgia y afecto que perduran hasta el día de hoy.</p>
+        <div class="section" id="#familiapeluche">
+            <h2>Familia P. Luche</h2>
+            <p>La Familia P. Luche es una serie de comedia mexicana creada por Eugenio Derbez que parodia la vida de una familia de clase media mexicana, los Peluche. La serie está protagonizada por Ludovico Peluche, interpretado por Derbez, quien constantemente se encuentra en situaciones cómicas debido a su obsesión por mantener el estatus social y la apariencia perfecta de su familia, mientras lidia con personajes excéntricos como su esposa Federica, sus hijos Ludoviquito y Bibi, y su suegra Excelsa.</p>
+            <div>
+                <img src="img/fpluche1.jpg" alt="Imagen 1" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/fpluche2.jpg" alt="Imagen 2" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/fpluche3.jpg" alt="Imagen 3" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+            </div>
+        </div>
+        <div class="section" id="chavodel8">
+            <h2>El Chavo del 8</h2>
+            <p>El Chavo del 8 es una serie de televisión mexicana creada y protagonizada por Roberto Gómez Bolaños, conocido como "Chespirito". La serie sigue las divertidas aventuras de un niño huérfano, conocido como "El Chavo", que vive en una vecindad junto a otros personajes memorables como Quico, la Chilindrina, Don Ramón, Doña Florinda, y el Profesor Jirafales. A través de situaciones cómicas y emocionantes, la serie explora temas como la amistad, la solidaridad y la importancia de la familia encontrada.</p>
+            <div>
+                <img src="img/chavo1.jpg" alt="Imagen 1" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/chavo2.webp" alt="Imagen 2" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/chavo3.jpg" alt="Imagen 3" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+            </div>
+        </div>
+        <div class="section" id="vecinos">
+            <h2>Vecinos</h2>
+            <p>Vecinos es una serie de comedia mexicana creada por Eugenio Derbez que sigue las historias de los residentes de un conjunto habitacional en la Ciudad de México. La serie presenta una variedad de personajes cómicos que lidian con situaciones cotidianas y absurdas, desde conflictos vecinales hasta malentendidos hilarantes. Con un elenco diverso y situaciones extravagantes, Vecinos ofrece una visión humorística de la vida en comunidad y las relaciones interpersonales.</p>
+            <div>
+                <img src="img/vecinos1.jpg" alt="Imagen 1" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/vecinos2.jpg" alt="Imagen 2" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+                <img src="img/vecinos3.jpg" alt="Imagen 3" style="max-width: 70%; height: auto; margin-bottom: 10px;">
+            </div>
+        </div>
+        <div class="section" id="redes">
+            <h2>Redes</h2>
+            <a href="#" onclick="redirect('https://www.instagram.com/ar.ge_rev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')" title="Instagram"><img src="img/instagram.png" alt="Instagram" style="max-width: 7%; height: auto;"></a>
+            <a href="#" onclick="redirect('https://www.facebook.com/profile.php?id=100005261719210')" title="Facebook"><img src="img/facebook.png" alt="Facebook" style="max-width: 7%; height: auto;"></a>
+            <a href="#" onclick="redirect('https://www.instagram.com/gerald_huesudo_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')" title="Otra red social"><img src="img/instagram.png" alt="Otra red social" style="max-width: 7%; height: auto;"></a>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
